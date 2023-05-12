@@ -50,6 +50,9 @@ namespace sinema_otomasyonu
             this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +61,7 @@ namespace sinema_otomasyonu
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button1.Location = new System.Drawing.Point(13, 13);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 102);
+            this.button1.Size = new System.Drawing.Size(68, 59);
             this.button1.TabIndex = 0;
             this.button1.Text = "A1";
             this.button1.UseVisualStyleBackColor = false;
@@ -69,7 +72,7 @@ namespace sinema_otomasyonu
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button2.Location = new System.Drawing.Point(156, 13);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 102);
+            this.button2.Size = new System.Drawing.Size(68, 59);
             this.button2.TabIndex = 1;
             this.button2.Text = "A2";
             this.button2.UseVisualStyleBackColor = false;
@@ -80,7 +83,7 @@ namespace sinema_otomasyonu
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button3.Location = new System.Drawing.Point(299, 13);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(121, 102);
+            this.button3.Size = new System.Drawing.Size(68, 59);
             this.button3.TabIndex = 2;
             this.button3.Text = "A3";
             this.button3.UseVisualStyleBackColor = false;
@@ -91,7 +94,7 @@ namespace sinema_otomasyonu
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button4.Location = new System.Drawing.Point(13, 121);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(121, 102);
+            this.button4.Size = new System.Drawing.Size(68, 59);
             this.button4.TabIndex = 3;
             this.button4.Text = "B1";
             this.button4.UseVisualStyleBackColor = false;
@@ -102,7 +105,7 @@ namespace sinema_otomasyonu
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button5.Location = new System.Drawing.Point(156, 121);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 102);
+            this.button5.Size = new System.Drawing.Size(68, 59);
             this.button5.TabIndex = 4;
             this.button5.Text = "B2";
             this.button5.UseVisualStyleBackColor = false;
@@ -113,7 +116,7 @@ namespace sinema_otomasyonu
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button6.Location = new System.Drawing.Point(299, 121);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 102);
+            this.button6.Size = new System.Drawing.Size(68, 59);
             this.button6.TabIndex = 5;
             this.button6.Text = "B3";
             this.button6.UseVisualStyleBackColor = false;
@@ -124,7 +127,7 @@ namespace sinema_otomasyonu
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button7.Location = new System.Drawing.Point(13, 242);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(121, 102);
+            this.button7.Size = new System.Drawing.Size(68, 59);
             this.button7.TabIndex = 6;
             this.button7.Text = "C1";
             this.button7.UseVisualStyleBackColor = false;
@@ -135,7 +138,7 @@ namespace sinema_otomasyonu
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button8.Location = new System.Drawing.Point(156, 242);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(121, 102);
+            this.button8.Size = new System.Drawing.Size(68, 59);
             this.button8.TabIndex = 7;
             this.button8.Text = "C2";
             this.button8.UseVisualStyleBackColor = false;
@@ -146,7 +149,7 @@ namespace sinema_otomasyonu
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button9.Location = new System.Drawing.Point(299, 242);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(121, 102);
+            this.button9.Size = new System.Drawing.Size(68, 59);
             this.button9.TabIndex = 8;
             this.button9.Text = "C3";
             this.button9.UseVisualStyleBackColor = false;
@@ -155,28 +158,28 @@ namespace sinema_otomasyonu
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(440, 13);
+            this.dataGridView1.Location = new System.Drawing.Point(13, 317);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(603, 331);
+            this.dataGridView1.Size = new System.Drawing.Size(407, 162);
             this.dataGridView1.TabIndex = 9;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(156, 359);
+            this.textBox1.Location = new System.Drawing.Point(843, 16);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(121, 20);
             this.textBox1.TabIndex = 10;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(156, 389);
+            this.textBox2.Location = new System.Drawing.Point(843, 46);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(121, 20);
             this.textBox2.TabIndex = 11;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(156, 415);
+            this.textBox3.Location = new System.Drawing.Point(843, 72);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(121, 20);
             this.textBox3.TabIndex = 12;
@@ -184,9 +187,9 @@ namespace sinema_otomasyonu
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(699, 414);
+            this.button10.Location = new System.Drawing.Point(675, 45);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(121, 20);
+            this.button10.Size = new System.Drawing.Size(100, 20);
             this.button10.TabIndex = 13;
             this.button10.Text = "Getir";
             this.button10.UseVisualStyleBackColor = true;
@@ -194,7 +197,7 @@ namespace sinema_otomasyonu
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(156, 450);
+            this.button11.Location = new System.Drawing.Point(843, 107);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(121, 20);
             this.button11.TabIndex = 14;
@@ -205,7 +208,7 @@ namespace sinema_otomasyonu
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 366);
+            this.label1.Location = new System.Drawing.Point(785, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 15;
@@ -214,7 +217,7 @@ namespace sinema_otomasyonu
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 422);
+            this.label2.Location = new System.Drawing.Point(785, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 16;
@@ -224,7 +227,7 @@ namespace sinema_otomasyonu
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(27, 396);
+            this.label3.Location = new System.Drawing.Point(785, 52);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 17;
@@ -233,7 +236,7 @@ namespace sinema_otomasyonu
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(709, 369);
+            this.textBox4.Location = new System.Drawing.Point(675, 20);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 18;
@@ -241,17 +244,50 @@ namespace sinema_otomasyonu
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(540, 372);
+            this.label4.Location = new System.Drawing.Point(520, 23);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(149, 13);
             this.label4.TabIndex = 19;
             this.label4.Text = "Aranacak Kişinin idsini Giriniz :";
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button12.Location = new System.Drawing.Point(426, 13);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(68, 59);
+            this.button12.TabIndex = 20;
+            this.button12.Text = "A4";
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button13.Location = new System.Drawing.Point(426, 121);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(68, 59);
+            this.button13.TabIndex = 21;
+            this.button13.Text = "B4";
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button14.Location = new System.Drawing.Point(426, 242);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(68, 59);
+            this.button14.TabIndex = 22;
+            this.button14.Text = "C4";
+            this.button14.UseVisualStyleBackColor = false;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1047, 491);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label3);
@@ -277,7 +313,6 @@ namespace sinema_otomasyonu
             this.MinimizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -307,5 +342,8 @@ namespace sinema_otomasyonu
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
     }
 }

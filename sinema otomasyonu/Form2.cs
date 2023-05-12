@@ -151,6 +151,26 @@ namespace sinema_otomasyonu
                 button9.BackColor = Color.Red;
                 button9.ForeColor = Color.White;
             }
+            if (textBox3.Text == button10.Text)
+            {
+                button10.BackColor = Color.Red;
+                button10.ForeColor = Color.White;
+            }
+            if (textBox3.Text == button11.Text)
+            {
+                button11.BackColor = Color.Red;
+                button11.ForeColor = Color.White;
+            }
+            if (textBox3.Text == button12.Text)
+            {
+                button12.BackColor = Color.Red;
+                button12.ForeColor = Color.White;
+            }
+            if (textBox3.Text == button13.Text)
+            {
+                button13.BackColor = Color.Red;
+                button13.ForeColor = Color.White;
+            }
 
         }
     }
